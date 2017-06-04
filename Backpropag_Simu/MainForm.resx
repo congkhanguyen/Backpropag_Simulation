@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="lineShape24.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>523, 206, 71, 0</value>
+  </metadata>
+  <metadata name="lineShape24.Location" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>523, 206</value>
+  </metadata>
+  <metadata name="lineShape24.Size" type="System.Drawing.Size, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>71, 0</value>
+  </metadata>
+  <metadata name="line_U5V.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>315, 230, 152, 147</value>
+  </metadata>
+  <metadata name="line_U5V.Location" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>315, 230</value>
+  </metadata>
+  <metadata name="line_U5V.Size" type="System.Drawing.Size, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>152, 147</value>
+  </metadata>
+  <metadata name="line_U4V.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>310, 221, 144, 69</value>
+  </metadata>
+  <metadata name="line_U4V.Location" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>310, 221</value>
+  </metadata>
+  <metadata name="line_U4V.Size" type="System.Drawing.Size, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>144, 69</value>
+  </metadata>
+  <metadata name="line_U3V.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>309, 208, 145, 0</value>
+  </metadata>
+  <metadata name="line_U3V.Location" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>309, 208</value>
+  </metadata>
+  <metadata name="line_U3V.Size" type="System.Drawing.Size, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>145, 0</value>
+  </metadata>
+  <metadata name="line_U2V.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>307, 127, 147, 58</value>
+  </metadata>
+  <metadata name="line_U2V.Location" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>307, 127</value>
+  </metadata>
+  <metadata name="line_U2V.Size" type="System.Drawing.Size, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>147, 58</value>
+  </metadata>
+  <metadata name="line_U1V.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>304, 45, 159, 127</value>
+  </metadata>
+  <metadata name="line_U1V.Location" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>304, 45</value>
+  </metadata>
+  <metadata name="line_U1V.Size" type="System.Drawing.Size, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>159, 127</value>
+  </metadata>
+  <metadata name="line_X0U5.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>79, 307, 171, 91</value>
+  </metadata>
+  <metadata name="line_X0U5.Location" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>79, 307</value>
+  </metadata>
+  <metadata name="line_X0U5.Size" type="System.Drawing.Size, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>171, 91</value>
+  </metadata>
+  <metadata name="line_X0U4.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>85, 303, 155, 0</value>
+  </metadata>
+  <metadata name="line_X0U4.Location" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>85, 303</value>
+  </metadata>
+  <metadata name="line_X0U4.Size" type="System.Drawing.Size, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>155, 0</value>
+  </metadata>
+  <metadata name="line_X0U3.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>89, 232, 155, 66</value>
+  </metadata>
+  <metadata name="line_X0U3.Location" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>89, 232</value>
+  </metadata>
+  <metadata name="line_X0U3.Size" type="System.Drawing.Size, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>155, 66</value>
+  </metadata>
+  <metadata name="line_X0U2.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>91, 149, 154, 141</value>
+  </metadata>
+  <metadata name="line_X0U2.Location" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>91, 149</value>
+  </metadata>
+  <metadata name="line_X0U2.Size" type="System.Drawing.Size, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>154, 141</value>
+  </metadata>
+  <metadata name="line_X0U1.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>86, 69, 165, 207</value>
+  </metadata>
+  <metadata name="line_X0U1.Location" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>86, 69</value>
+  </metadata>
+  <metadata name="line_X0U1.Size" type="System.Drawing.Size, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>165, 207</value>
+  </metadata>
+  <metadata name="line_X2U3.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>90, 215, 148, 0</value>
+  </metadata>
+  <metadata name="line_X2U3.Location" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>90, 215</value>
+  </metadata>
+  <metadata name="line_X2U3.Size" type="System.Drawing.Size, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>148, 0</value>
+  </metadata>
+  <metadata name="line_X2U5.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>80, 234, 163, 152</value>
+  </metadata>
+  <metadata name="line_X2U5.Location" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>80, 234</value>
+  </metadata>
+  <metadata name="line_X2U5.Size" type="System.Drawing.Size, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>163, 152</value>
+  </metadata>
+  <metadata name="line_X2U4.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>84, 229, 152, 57</value>
+  </metadata>
+  <metadata name="line_X2U4.Location" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>84, 229</value>
+  </metadata>
+  <metadata name="line_X2U4.Size" type="System.Drawing.Size, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>152, 57</value>
+  </metadata>
+  <metadata name="line_X2U2.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>88, 137, 150, 69</value>
+  </metadata>
+  <metadata name="line_X2U2.Location" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>88, 137</value>
+  </metadata>
+  <metadata name="line_X2U2.Size" type="System.Drawing.Size, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>150, 69</value>
+  </metadata>
+  <metadata name="line_X2U1.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>82, 57, 157, 143</value>
+  </metadata>
+  <metadata name="line_X2U1.Location" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>82, 57</value>
+  </metadata>
+  <metadata name="line_X2U1.Size" type="System.Drawing.Size, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>157, 143</value>
+  </metadata>
+  <metadata name="line_X1U5.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>73, 162, 171, 201</value>
+  </metadata>
+  <metadata name="line_X1U5.Location" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>73, 162</value>
+  </metadata>
+  <metadata name="line_X1U5.Size" type="System.Drawing.Size, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>171, 201</value>
+  </metadata>
+  <metadata name="line_X1U4.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>82, 158, 162, 110</value>
+  </metadata>
+  <metadata name="line_X1U4.Location" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>82, 158</value>
+  </metadata>
+  <metadata name="line_X1U4.Size" type="System.Drawing.Size, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>162, 110</value>
+  </metadata>
+  <metadata name="line_X1U3.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>86, 151, 154, 42</value>
+  </metadata>
+  <metadata name="line_X1U3.Location" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>86, 151</value>
+  </metadata>
+  <metadata name="line_X1U3.Size" type="System.Drawing.Size, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>154, 42</value>
+  </metadata>
+  <metadata name="line_X1U1.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>84, 42, 149, 84</value>
+  </metadata>
+  <metadata name="line_X1U1.Location" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>84, 42</value>
+  </metadata>
+  <metadata name="line_X1U1.Size" type="System.Drawing.Size, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>149, 84</value>
+  </metadata>
+  <metadata name="line_X1U2.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>90, 125, 146, 13</value>
+  </metadata>
+  <metadata name="line_X1U2.Location" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>90, 125</value>
+  </metadata>
+  <metadata name="line_X1U2.Size" type="System.Drawing.Size, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>146, 13</value>
+  </metadata>
+  <metadata name="lineShape3.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>6, 291, 43, 0</value>
+  </metadata>
+  <metadata name="lineShape3.Location" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>6, 291</value>
+  </metadata>
+  <metadata name="lineShape3.Size" type="System.Drawing.Size, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>43, 0</value>
+  </metadata>
+  <metadata name="lineShape2.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>5, 216, 43, 0</value>
+  </metadata>
+  <metadata name="lineShape2.Location" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>5, 216</value>
+  </metadata>
+  <metadata name="lineShape2.Size" type="System.Drawing.Size, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>43, 0</value>
+  </metadata>
+  <metadata name="lineShape1.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>5, 142, 43, 0</value>
+  </metadata>
+  <metadata name="lineShape1.Location" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>5, 142</value>
+  </metadata>
+  <metadata name="lineShape1.Size" type="System.Drawing.Size, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>43, 0</value>
+  </metadata>
+  <metadata name="x1.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="x2.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="z.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="output.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="backGroundWork.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>117, 17</value>
+  </metadata>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>272, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAIAEBAAAAAAIABoBAAAJgAAACAgAAAAACAAqBAAAI4EAAAoAAAAEAAAACAAAAABACAAAAAAAEAE
+        AAAAAAAAAAAAAAAAAAAAAAAA////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///4v///+L////i////4v///+L////i/r6+ovKyMiL8fHxi///
+        /4v///+L////i////4v///+L////i////4v///////////////////////////39/f/Qz8//XFpZ/6yr
+        q/////////////////////////////////////////////7+/v/29vb/+vn5/+jo5/+7urr/sbCv/5+e
+        nf+ura3/+vr6/////////////////////////////////9HQz//Pzs3/goB//4+Njf/FxMP/7u3t/769
+        vP/8/Pz/29vb/8HAwP/8/Pz////////////////////////////W1dT/1NPS/4F/fv99e3v/1dTU/8bF
+        xP/n5ub////////////Ozcz/1NTT//7+/v/////////////////////////////////7+/v/uLe3/7m5
+        uP+YlpX/3t7d/97e3v/29vb//////8rJyf/T09L/7Ovr//j49//19fX/+vn5/////////////////+7u
+        7v+Ni4v/8vLy/7i2tv9hX17/lpWU/8TEw//DwsH/b21s/399fP+0s7L/ycjG/9XU0///////////////
+        ///Ozs3/tLKy/7e2tv/Av77/p6Wl/9rZ2f/29fX/2NjX/5+dnP/Dw8L/6ejo/+rp6P/19PT/7ezs/+3s
+        7P+6ubj/kI6O/7m4uP+uraz/9vb2////////////7ezs/8C/vv/6+vr//////////////////////8G/
+        v/+8u7r/ZWJh/3Nycf/p6en/5+fn/8nIx///////8vHx/7a2tf/39vb/////////////////////////
+        ///29vb/9/f3/9ra2f/h4eD/wsHA/8HAv/++vb3/0M/P/7Cvr//r6+v/////////////////////////
+        //////////////////////////////7+/v/x8fH/t7a1/2VjYv+qqan/////////////////////////
+        //////////////n5+f///////////////////////////+3t7f+enJv/3dzc////////////////////
+        ///////////////////7+/uL////i////4v///+L////i////4v///+L/v39i////4v///+L////i///
+        /4v///+L////i////4v///+L////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////AQAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA
+        //8AAP//AAD//wAA//8AAP//AAD//wAA//8oAAAAIAAAAEAAAAABACAAAAAAAIAQAAAAAAAAAAAAAAAA
+        AAAAAAAA////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///xn///8Z////Gf///xn///8Z////Gf///xn///8Z////Gf//
+        /xn///8Z////Gf///xn9/f0Z4N7eGdDPzxnx8fEZ////Gf///xn///8Z////Gf///xn///8Z////Gf//
+        /xn///8Z////Gf///xn///8Z////Gf///xn///8Z////////////////////////////////////////
+        //////////////////////////////X19f/Qz87/wL+//+Tk5P/8/Pz/////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ///////////////////////////////////9/f3/urm4/2BdXP9QTk3/hYSD/+Tk5P//////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////+fn5/+Tj4/+lo6L/Z2Rj/1pYV/93dXT/0tHR////
+        ////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////+fn4/+bm5f/NzMz/pqWk/4mHhf94dnX/a2lo/42M
+        i//e3t3/////////////////////////////////////////////////////////////////////////
+        ///////////////////+/v7/9vX1/+bm5f/x8fH/+Pj4/+Hg4P/Ix8b/nJua/56dnP/V1NT/wL++/7m3
+        t//h4eD/paSj/6inp//u7u7/////////////////////////////////////////////////////////
+        /////////////+no6f/t7Ov/6+vr/+jo5/+6uLj/iYeG/6Wko//Ew8P/m5mY/5mXlv/f3t7/+fn5/8XE
+        w/+wrq7/9fX1///////t7Oz/pKKi/7KwsP/y8fH/////////////////////////////////////////
+        ////////////////////////sK6v/768uv+5uLb/rqyr/2ZjYv9fXVv/U1FQ/359ff/h4eH/////////
+        ///g39//rq2s/9TU0//////////////////e3t7/oJ+e/8HAwP/29vb/////////////////////////
+        //////////////////////////////////+/vb7/y8nH/8fFxP+1tLP/cG5s/19dW/9dW1r/mpmZ/+Hg
+        4P//////8vLy/7q4uP+zsrH////////////////////////////R0M//oqGg/9HR0P/6+vr/////////
+        /////////////////////////////////////////////+Tj4//q6ej/6ejn/+vq6v+trKv/iYeG/3Ry
+        cv+Jh4f/rKqq/8nJyP/CwcH/qKem/+rq6v/////////////////////////////////FxcT/p6al/+Df
+        3//9/f3///////////////////////////////////////////////////////////////////////7+
+        /v/x8fH/vr29/5ybm//Q0ND/kpGQ/4OBgP+joaD/8vLx////////////////////////////////////
+        //+/vr7/r66t/+np6f/////////////////////////////////8/Pz//v7+////////////////////
+        ///////////////////o6Oj/npyc/8LBwf/BwMD/i4mI/6+urf+8u7r/zMzL/8bFxP+3trX/3t3d////
+        //////////////39/f+7urr/sbCv/7W0s//Av7//8vLy//Ly8v/w8O//9PTz/+jn5v/s6+v//v7+////
+        //////////////////////////////39/f/Z2dn/hIKC/6KgoP/g39//6+rq/7u6uv+Yl5X/cG1s/1lX
+        Vv+Lion/xsbG/9DPz//R0ND/1NPS/8nHx/+Bf37/W1lY/19dXP+7urn/yMfG/8C/vf/R0M//0M/N/8TC
+        wP/v7+7//////////////////////////////////////+Tk5P+DgYD/jIqJ////////////6+vq/5+e
+        nf9jYV//WldX/2hlZf+fnp7/uLe3/7m4t/+9vLz/srCw/3x6ef9kYmH/TUtK/5SSkf+sqqn/npya/7i3
+        tf/Mysn/tbKw/+3t7P/////////////////////////////////4+Pj/ysrJ/4mHh/+qqan/0dDQ/9va
+        2v+xsK//qKem/4aFg/9ycG//oaCg/9/f3v/t7e3/7Ozs/+7u7v/R0ND/jIqJ/3Fvbv95eHf/xsbF/9fW
+        1v/Qzs3/3dzb/9jX1v/a2Nf//f39/////////////////////////////////+Tk4/+SkZD/09LS/8jI
+        x/9/fXz/srGx/8bFxf/g4OD/2NfX/8rKyf/p6Oj/////////////////8PDw/7KxsP+5uLf/xcTD/9bW
+        1v/39/f/////////////////8/Py//z8/P/+/v7//////////////////v7+//f39//T0tL/q6qq/5uZ
+        mf+3tbX/paOj/5WTkv+ko6L///////////////////////////////////////n5+f+1tLT/s7Kx/+3t
+        7P/////////////////////////////////////////////////Y2Nj/3dzb/9va2v/b2tn/n56d/317
+        ev9qaGf/j46O/7e2tv/R0ND/1tXV/6mnp//d3Nz/////////////////////////////////vLu7/66t
+        rP/p6en//////////////////////////////////////////////////////7i3t//EwsD/wL69/62r
+        qv9qZ2b/YV5d/11bWv+ZmJj/8fHx///////29vb/wL6+/66trP/6+vr//////////////////////8LB
+        wf+lpKT/4uHh//7+/v//////////////////////////////////////////////////////vr29/8vJ
+        x//HxsX/vr28/21raf9bWFf/VlRT/4B/fv+9vLz/+Pj4///////o6Oj/tLKy/8fGxf//////////////
+        ///Lysn/n56d/9TT0//7+/v/////////////////////////////////////////////////////////
+        ///s7Oz/8PDv/+/v7//w7+//zs3M/6yrqv/BwcD/zMvL/7Oysv+WlJT/vby8//b29v/S0dD/sK+u/+no
+        6P//////19fW/52cm//DwsL/9/f3////////////////////////////////////////////////////
+        ///////////////////////////////////8/Pz/8vLy//v7+//8/Pz/7ezs/9HQ0P+2tbX/m5iY/7q4
+        uP+9vLv/o6Kh/7a0tP+Yl5b/tbS0//Py8v//////////////////////////////////////////////
+        /////////////////////////////////////////////////////////////////////////f39/+/v
+        7//Z2dj/wL++/46Miv9vbWz/ZWNi/4aFhf/b29r/////////////////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////39/f/r6ur/o6Kh/2VjYf9bWFj/dnR0/9LR0f//////////////////////////////
+        ////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////39/f/DwsL/aWdl/1FOTf+XlZX/8O/v////////////////////
+        ////////////////////////////////////////////////////////5+fn////////////////////
+        //////////////////////////////////////////////b29v/h4OD/3Nvb//Dw8P/9/f3/////////
+        ///////////////////////////////////////////////////////////////////4+Pj/////////
+        //////////////////////////////////////////////////////////////79/f/9/f3/////////
+        //////////////////////////////////////////////////////////////////////////////v7
+        +xn///8Z////Gf///xn///8Z////Gf///xn///8Z////Gf///xn///8Z////Gf///xn///8Z////Gf//
+        /xn///8Z////Gf///xn///8Z////Gf///xn///8Z////Gf///xn///8Z////Gf///xn///8Z////Gf//
+        /xn///8Z////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+</value>
+  </data>
+</root>
